@@ -1,0 +1,10 @@
+networks:
+  eth-mainnet:
+    name: "Ethereum Mainnet"
+    rpc: "https://mainnet.infura.io/v3/"
+  flare-sgb:
+    name: "Flare Songbird Canary"
+    rpc: "https://songbird.towolabs.com/rpc"
+  flare-coston:
+    name: "Flare Coston"
+    rpc: "https://coston-api.flare.network/ext/bc/C/rpc"

@@ -1,0 +1,10 @@
+/venv
+/__pycache__
+/build
+/dist
+abi.json
+create_keystore.spec
+EVMNetCall.spec
+EVMNetCall.exe
+keystore.json
+
