@@ -10,6 +10,8 @@ from web3.middleware import geth_poa_middleware
 from cmd_utils import fail, inpexit, success, warn
 from config import load_config
 
+version = "1.0.0"
+
 
 def is_view(abi, function_name):
     for index in abi:
@@ -21,6 +23,8 @@ def is_view(abi, function_name):
 os.system("color")
 
 conf = load_config("config.py")
+
+print(success(f"EVMNetCall (Ver: {version})"))
 
 _ = 1
 for network in conf.networks:
